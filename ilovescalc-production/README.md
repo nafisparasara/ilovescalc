@@ -1,9 +1,9 @@
-# iLoveCalc — Cloudflare Pages production package
+# iLovesCalc — Cloudflare Pages production package
 
 This static site includes the calculator suite, 37 dedicated calculator landing pages, legal/support pages, sitemap, robots.txt, and Cloudflare Pages headers/redirects.
 
 ## Deploy to Cloudflare Pages
-1. Extract this folder (`ilovecalc-production`) and upload its contents to a GitHub repository (not the ZIP itself).
+1. Extract this folder (`iLovesCalc-production`) and upload its contents to a GitHub repository (not the ZIP itself).
 2. In Cloudflare Dashboard, open Workers & Pages → Create → Pages → Connect to Git.
 3. Select the repository. Framework preset: **None**. Build command: leave empty. Build output directory: `.` (the repository root, where `index.html` is located).
 4. Deploy. Open the generated `*.pages.dev` URL and test the home page, one calculator, About, Contact, Privacy, Terms, Disclaimer, and `/sitemap.xml`.

@@ -52,7 +52,7 @@
         };
       },
       seo: {
-        heading: 'How Loan EMI is Calculated on iLoveCalc',
+        heading: 'How Loan EMI is Calculated on iLovesCalc',
         desc: 'An Equated Monthly Installment (EMI) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. EMIs are used to pay off both interest and principal each month so that over a specified number of years, the loan is paid off in full.',
         formula: 'EMI = [P × R × (1 + R)^N] / [(1 + R)^N - 1]',
         tips: ['Making partial prepayments early in your loan tenure drastically cuts total interest outgo.', 'A higher down payment lowers your principal P and reduces monthly EMI burden.']
@@ -946,9 +946,9 @@
   ];
 
   const STORAGE_KEYS = {
-    THEME: 'ilovecalc_theme_v2',
-    HISTORY: 'ilovecalc_history_v2',
-    ACTIVE: 'ilovecalc_active_v2'
+    THEME: 'iLovesCalc_theme_v2',
+    HISTORY: 'iLovesCalc_history_v2',
+    ACTIVE: 'iLovesCalc_active_v2'
   };
 
   function getInitialCalcId() {
@@ -1085,7 +1085,7 @@
   }
 
   function updateSEOMetadata(calc) {
-    document.title = `${calc.title} — Free Online ${calc.category} Calculator | iLoveCalc`;
+    document.title = `${calc.title} — Free Online ${calc.category} Calculator | iLovesCalc`;
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
       metaDesc.setAttribute('content', `${calc.subtitle} Free, fast, mobile-friendly ${calc.title} on ilovescalc.com.`);

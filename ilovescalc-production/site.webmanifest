@@ -1,6 +1,6 @@
 {
-  "name": "iLoveCalc — 37 Free Finance, Health & Math Calculators",
-  "short_name": "iLoveCalc",
+  "name": "iLovesCalc — 37 Free Finance, Health & Math Calculators",
+  "short_name": "iLovesCalc",
   "description": "Free, fast, and accurate online calculators for EMI, SIP, GST, BMI, Calories, Percentage, and unit conversions.",
   "start_url": "/",
   "display": "standalone",
